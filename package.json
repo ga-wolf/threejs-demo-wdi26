@@ -1,0 +1,19 @@
+{
+  "name": "threejs-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:dev": "cp -r app/images/ dist/images && parcel app/html/index.html",
+    "build:prod":
+      "rm -rf dist/* && cp -r app/images/ dist/images && parcel build app/html/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.1",
+    "three": "^0.92.0",
+    "three-orbitcontrols": "^2.0.0"
+  }
+}
