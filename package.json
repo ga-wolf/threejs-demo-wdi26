@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve:dev": "cp -r app/images/ dist/images && parcel app/html/index.html",
+    "serve:dev": "cp public/** dist/ && parcel app/html/index.html",
     "build:prod":
-      "rm -rf dist/* && cp -r app/images/ dist/images && parcel build app/html/index.html",
+      "rm -rf dist/* && cp public/** dist/ && parcel build app/html/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

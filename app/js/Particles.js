@@ -20,12 +20,12 @@ function addParticles() {
     particles.vertices.push(particle);
   }
   const materialOne = new PointsMaterial({
-    map: new TextureLoader().load("/images/bill.jpg"),
+    map: new TextureLoader().load("/bill.jpg"),
     size: 10,
     color: "#ffffff"
   });
   const materialTwo = new PointsMaterial({
-    map: new TextureLoader().load("/images/nick.jpg"),
+    map: new TextureLoader().load("/nick.jpg"),
     size: 10,
     color: "#ffffff"
   });
